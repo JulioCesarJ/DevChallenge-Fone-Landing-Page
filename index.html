@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+        </style>
     <title>SHOP</title>
 </head>
 <body>
     <header>
         <div id="logo">
-            <img src="#" alt="">
+            <img src="assets/logo.svg" alt="logo">
         </div>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Products</li>
-                <li>Support</li>
-            </ul>
-        </nav>
-        <div id="icones-menu">
-            <img src="#" alt="">
-            <img src="#" alt="">
-            <img src="#" alt="">
+        <div class="navegacao">
+            <nav class="navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Products</li>
+                    <li>Support</li>
+                </ul>
+            </nav>
+            <nav class="menu">
+                 <ul>
+                    <li><i class="fas fa-search"></i></li>
+                    <li><i class="fas fa-shopping-cart"></i></li>
+                    <li><i class="fas fa-bars"></i></li>
+                </ul>
+            </nav>
         </div>
+        <div class="clear"></div>
     </header>
     <main>
         <div class="produto">
-
+            <img src="assets/fone.png" alt="">
         </div>
         <div class="informacoes-produto">
             <div class="titulo">
@@ -36,9 +45,14 @@
             </div>
             <div class="tipo-produto">
                 <h2>Wireless over-ear headphones</h2>
-            </div>
-            <div class="nota-produto">
-                <img src="#" alt="">
+                <ul>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="far fa-star"></i></li>
+                    <li class="nota">4.2 (353) </li>
+                </ul>
             </div>
             <div class="prop-produto1">
                 <h2>Diver unit</h2>
@@ -54,12 +68,13 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div class="caract-produto">
-            <p>High-Resolution Audio compatible</p>
-            <p>Wireless connectivity using bluetooth</p>
-            <p>A powerful battery that lasts up to 4 hours of use</p>
-        </div>
+    <div class="clear"></div>
+    <footer class="rodape">
+        <ul class="caract-produto">
+            <li>High-Resolution Audio compatible</li>
+            <li>Wireless connectivity using bluetooth</li>
+            <li>A powerful battery that lasts up to 4 hours of use</li>
+        </ul>
     </footer>
 </body>
 </html>

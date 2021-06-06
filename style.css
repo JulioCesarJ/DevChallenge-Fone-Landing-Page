@@ -1,3 +1,5 @@
+/* Padronização browser */
+
 * {
     padding: 0;
     margin: 0;
@@ -5,3 +7,193 @@
     --Preto: #161616;
     --Cinza: #707070;
 }
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Logo */
+
+#logo {
+    margin-top: 15px;
+    margin-left: 48px;
+    float: left;
+}
+
+#logo img {
+    width: 76px;
+    height: 43px;
+}
+
+/* Barra de navegação */
+
+.navegacao{
+    margin-left: 352px;
+    margin-top: 25px;
+    float: left;
+}
+/* Menu de navegação central */
+.navbar {
+    display: inline-block;
+    margin-right: 418px;
+    word-spacing: 27px;
+}
+
+.navbar ul li {
+    font-size: 14px;
+    color: var(--Cinza);
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* menu de nagevação direito */
+.menu {
+    display: inline-block;
+    word-spacing: 27px;
+}
+
+.menu ul li {
+    color: var(--Cinza);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Main Foto */
+
+.produto {
+    margin-top: 60px;
+    margin-left: 190px;
+    float: left;
+}
+
+.produto img {
+    width: 390px;
+    height: 412px;
+}
+
+/* Container Produto */
+
+.informacoes-produto {
+    margin-top: 100px;
+    margin-left: 165px;
+    float: left;
+}
+
+/* Titulo */
+.titulo h1 {
+    color: var(--vermelho);
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+}
+
+/* Descrição produto e avaliação */
+.tipo-produto {
+    margin-top: 40px;
+    color: var(--Preto);
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    word-spacing: 4px;
+}
+
+.tipo-produto ul li {
+    font-size: 18px;
+    color: var(--vermelho);
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.nota{
+    margin-left: 20px;
+}
+/* Driver Unit */
+
+.prop-produto1 h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 28px;
+    color: var(--Preto);
+    font-size: 16px;
+}
+
+.prop-produto1 p{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--Cinza);
+    font-size: 16px;
+}
+
+/* Frequencia */
+
+.prop-produto2 h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 28px;
+    color: var(--Preto);
+    font-size: 16px;
+}
+
+.prop-produto2 p{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--Cinza);
+    font-size: 16px;
+}
+
+/* Valor Produto */
+
+.valor-produto{
+    margin-top: 26px;
+}
+
+.valor-produto h1{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--Preto);
+    font-size: 28px;
+}
+
+.valor-produto input{
+    color: white;
+    background-color: var(--vermelho);
+    border: var(--vermelho);
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    height: 40px;
+    float: right;
+    cursor: pointer;
+}
+
+.valor-produto input:hover{
+    color: var(--Preto);
+    background-color: var(--vermelho);
+}
+
+/* Rodape */
+
+
+.caract-produto{
+    margin: 0px auto;
+    margin-top: 25px;
+    width: 1230px;
+    background-color: #fcf7da;
+    text-align: center;
+}
+
+.caract-produto li{
+    display: inline-block;
+    color: var(--Cinza);
+    width: 200px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
